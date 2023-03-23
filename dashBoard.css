@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	display: flex;
+}
+
+#left-sidebar {
+	width: 200px;
+	background-color: #ccc;
+    height: 1400px;
+}
+
+#center-content {
+	flex-grow: 1;
+	background-color: #fff;
+}
+
+#right-sidebar {
+	width: 200px;
+	background-color: #ccc;
+}

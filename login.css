@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  form {
+    width: 400px;
+    padding: 32px;
+    border: 5px solid white;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    background-color: rgb(36,36, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+    padding-top: 16px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding-top: 16px;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  #login {
+    margin-bottom: 24px;
+    margin-top: 32px;
+    border: 2px solid white ;
+    border-radius: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(235,198, 198);
+  }
+
+  #signup {
+    margin-bottom: 20px;
+    border: 2px solid white ;
+    border-radius: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(160,195, 210);
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #forget {
+    padding-top: 8px;
+    padding-left: 8px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .form-group input:valid,
+  .form-group input:focus {
+    border: 1px solid black;
+  }

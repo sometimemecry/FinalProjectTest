@@ -1,33 +1,64 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Left and Right Sidebar Layout</title>
-	<link rel="stylesheet" type="text/css" href="dashBoard.css">
-</head>
-<body>
-	<div id="container">
-		<div id="left-sidebar">
-			<nav>
-				<div id="left-logo">
-					<img src="./image/logo.png">
-				</div>
-                <ul>
-                    <li class="left-nav"><img class="logo-nav" src="./image/newpost.png"><a href="#">New Post</a></li>
-					<li class="left-nav"><img class="logo-nav" src="./image/categories.png"><img<a href="#">Categories</a></li>
-					<li class="left-nav"><img class="logo-nav" src="./image/trainingplan.png"><a href="#">Traning Plan</a></li>
-					<li class="left-nav"><img class="logo-nav" src="./image/profile.png"><a href="#">My Account</a></li>
-                </ul>
-            </nav><!-- Left sidebar content goes here -->
-			<div id="Callendar">
+  <head>
+    <title>Gymmini</title>
+    <link rel="stylesheet" type="text/css" href="dashBoard.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="left-sidebar">
+        <nav>
+          <div id="left-logo">
+            <img src="./image/logo.png" />
+          </div>
 
+          <div class="nav-box">
+            <div class="nav-img">
+              <img src="/image/newpost.png" />
+            </div>
+            <span class="nav-text">New Post</span>
+          </div>
+          <div class="nav-box">
+            <div class="nav-img">
+              <img src="/image/categories.png" />
+            </div>
+            <span class="nav-text">Categories</span>
+          </div>
+          <div class="nav-box">
+            <div class="nav-img">
+              <img src="/image/trainingplan.png" />
+            </div>
+            <span class="nav-text">Training Plan</span>
+          </div>
+          <div class="nav-box">
+            <div class="nav-img">
+              <img src="/image/profile.png" />
+            </div>
+            <span class="nav-text">My Account</span>
+          </div>
+		  <div id="calendar">
+			<img src="image/Calendar.png">
+		  </div>
+		  <span id="goal">My Goal</span>
+        </nav>
+      </div>
+      <div id="center-content">
+      </div>
+      <div id="right-sidebar">
+		<div id="progress-box">
+			<div class="progress-img">
+				<img src="./image/distance.png">
+			</div>
+			<div class="progress-img">
+				<img src="./image/duration.png">
 			</div>
 		</div>
-		<div id="center-content">
-			<!-- Center content goes here -->
+		<div id="stickynote">
+			<div id="sticky-img">
+				<img src="/image/stickynote.png">
+			</div>
 		</div>
-		<div id="right-sidebar">
-			<!-- Right sidebar content goes here -->
-		</div>
-	</div>
-</body>
+      </div>
+    </div>
+  </body>
 </html>
